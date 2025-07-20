@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradient_background"
+    android:padding="16dp"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="48dp">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/about_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🔐 KeyNest"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/felipa"
+            android:textColor="@color/black"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Description Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:elevation="4dp"
+            app:cardCornerRadius="12dp"
+            android:backgroundTint="#FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="KeyNest is a secure and modern password manager designed to help you store and manage your credentials with ease. Your data is encrypted, session-protected, and optionally biometric-secured."
+                    android:textSize="16sp"
+                    android:textColor="#333333" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Features Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="4dp"
+            app:cardCornerRadius="12dp"
+            android:backgroundTint="#FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="✨ Key Features"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#1F2937"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Encrypted password storage\n• Biometric login (Fingerprint/Face ID)\n• Master password protection\n• Auto logout after inactivity\n• Self-destruct after failed attempts\n• Elegant UI with search\n• Dark mode ready (future)"
+                    android:textSize="15sp"
+                    android:textColor="#444444" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- 📢 Other Projects Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n📢 Other Projects by Me"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1F2937"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Project 1 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="4dp"
+            app:cardCornerRadius="12dp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/ic_lostnfound"
+                    android:contentDescription="Project Logo"
+                    android:layout_marginEnd="12dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="Lost n' Found"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="#222222"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"/>
+
+                    <TextView
+                        android:text="A smart village lost-item tracker system"
+                        android:textSize="14sp"
+                        android:textColor="#555555"
+                        android:layout_marginTop="2dp"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"/>
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View"
+                    android:textSize="14sp"
+                    android:textAllCaps="false"
+                    android:backgroundTint="#773A0B"
+                    android:textColor="#FFFFFF"
+                    android:onClick="openLostNFoundProject"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Project 2 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="4dp"
+            app:cardCornerRadius="12dp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/random_icon"
+                    android:contentDescription="Project Logo"
+                    android:layout_marginEnd="12dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="Random App"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="#222222"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"/>
+
+                    <TextView
+                        android:text="A mini app exploring random logic and UI. Lightweight and functional."
+                        android:textSize="14sp"
+                        android:textColor="#555555"
+                        android:layout_marginTop="2dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"/>
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View"
+                    android:textSize="14sp"
+                    android:textAllCaps="false"
+                    android:backgroundTint="#773A0B"
+                    android:textColor="#FFFFFF"
+                    android:onClick="openRandomProject"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- 🌟 Portfolio Banner Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_portfolio_gradient"
+            android:padding="20dp"
+            android:layout_marginTop="32dp"
+            android:elevation="6dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:backgroundTintMode="src_in"
+            android:clipToPadding="false"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:src="@drawable/portfolio_icon"
+                android:layout_marginBottom="12dp"
+                android:contentDescription="Portfolio Icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🌐 Explore My Portfolio"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/birthstone"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Discover my apps, design work,\nmini tools, and creative experiments!"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:layout_marginBottom="16dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Visit Portfolio"
+                android:textColor="#4CAF50"
+                android:textStyle="bold"
+                android:backgroundTint="#FFFFFF"
+                android:insetTop="8dp"
+                android:insetBottom="8dp"
+                android:insetLeft="24dp"
+                android:insetRight="24dp"
+                app:cornerRadius="16dp"
+                app:rippleColor="#99CC99"
+                android:onClick="openPortfolioSite"/>
+
+        </LinearLayout>
+
+
+
+        <!-- Add more projects below if needed -->
+
+        <!-- Developer Info -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n👨‍💻 Developed by: Jatin Gangare\n📱 Version: 1.0.0"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:gravity="center"
+            android:layout_marginTop="24dp" />
+    </LinearLayout>
+</ScrollView>

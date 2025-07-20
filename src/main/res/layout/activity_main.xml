@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+    android:elevation="0dp"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/topAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:title="🔐 KeyNest"
+        app:titleTextAppearance="@style/ToolbarTitleStyle"
+        app:titleCentered="true"
+        app:menu="@menu/menu_main"
+        android:layout_marginTop="30dp"/>
+
+
+    <EditText
+        android:id="@+id/search_input"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Search passwords..."
+        android:drawableStart="@android:drawable/ic_menu_search"
+        android:padding="12dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginBottom="12dp"
+        android:inputType="text" />
+
+    <!-- RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="4dp" />
+
+    <!-- Add Button -->
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Password"
+        android:textAllCaps="false"
+        android:drawableStart="@android:drawable/ic_input_add"
+        android:padding="12dp"
+        android:backgroundTint="#773A0B"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="12dp"
+        android:elevation="4dp" />
+</LinearLayout>

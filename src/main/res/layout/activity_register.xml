@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="80dp">
+
+        <TextView
+            android:text="Create Your Master Password 🔐"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="This password will protect all your saved credentials."
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/setup_master_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Master Password"
+            android:inputType="textPassword"
+            android:background="@drawable/edit_text_bg"
+            android:padding="14dp"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/confirm_master_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Master Password"
+            android:inputType="textPassword"
+            android:background="@drawable/edit_text_bg"
+            android:padding="14dp"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <Spinner
+            android:id="@+id/security_question_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/setup_security_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Answer"
+            android:inputType="text"
+            android:background="@drawable/edit_text_bg"
+            android:padding="14dp"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/setup_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#773A0B"
+            android:textAllCaps="false"
+            android:elevation="4dp"
+            android:padding="14dp" />
+    </LinearLayout>
+</ScrollView>

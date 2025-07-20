@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.KeyNest" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+    <style name="AppThemeNew" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg</item>
+    </style>
+
+
+    <style name="Theme.KeyNest" parent="Base.Theme.KeyNest" />
+</resources>

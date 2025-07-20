@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:src="@drawable/pmicon"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="KeyNest Logo" />
+
+    <TextView
+        android:text="KeyNest"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ProgressBar
+        android:id="@+id/splash_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/developed_by"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="developed by Jatin Gangare"
+        android:textSize="14sp"
+        android:textColor="#AAAAAA"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp" />
+
+</LinearLayout>

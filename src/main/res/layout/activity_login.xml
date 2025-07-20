@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@android:color/transparent">
+
+        <TextView
+            android:text="Welcome to KeyNest 🔐"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Enter your master password to continue"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/master_password"
+            android:hint="Master Password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="14dp"
+            android:background="@drawable/edit_text_bg"
+            android:textColor="#000000"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/login_button"
+            android:text="Login"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#1976D2"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/biometric_button"
+            android:text="Unlock with Fingerprint / Face"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#388E3C"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/forgot_password"
+            android:text="Forgot Password?"
+            android:textColor="#1976D2"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</ScrollView>
