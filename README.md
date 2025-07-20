@@ -87,7 +87,6 @@ KeyNest stores your passwords **only on your device** using `SharedPreferences`.
 ## 🌐 Portfolio
 
 🔗 [Visit My Portfolio](https://jatin-gangare.netlify.app/)  
-📱 [Lost n' Found App](https://github.com/jatin-gangare/lostnfound) – Smart village lost item tracking system
 
 ---
 
