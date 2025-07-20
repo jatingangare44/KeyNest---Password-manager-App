@@ -46,6 +46,7 @@ KeyNest is a secure, elegant, and lightweight Android password manager that help
 
 ## 📂 Project Structure
 
+```
 KeyNest/
 ├── app/
 │   ├── java/com/jatin/keynest/
@@ -61,6 +62,7 @@ KeyNest/
 ├── .gitignore
 ├── README.md
 └── build.gradle
+```
 
 
 ---
