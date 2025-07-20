@@ -1,4 +1,4 @@
-# 🔐 KeyNest - Android Password Manager
+![about2](https://github.com/user-attachments/assets/81c4049a-c042-41d9-b490-dbe955df3d28)# 🔐 KeyNest - Android Password Manager
 
 KeyNest is a secure, elegant, and lightweight Android password manager that helps you store, manage, and protect your login credentials. Designed with modern UI principles and security features, it's the perfect companion for managing your digital life.
 
@@ -25,6 +25,18 @@ KeyNest is a secure, elegant, and lightweight Android password manager that help
 ![about2](https://github.com/user-attachments/assets/169fd36d-3352-4497-a2ed-a5134c74ee17)
 ![login](https://github.com/user-attachments/assets/29408023-fe07-45bb-9478-3e5b6e3e0736)
 ![register](https://github.com/user-attachments/assets/4f1665ea-fa5d-4cbe-a58c-edfbb2c3a083)
+
+## 📱 Screenshots
+
+### 🔐 Login Screen
+<img src="Screenshots/login.jpg" alt="Login Screen" width="300"/>
+
+### 📝 Create Account
+<img src="Screenshots/register.jpg" alt="Register Screen" width="300"/>
+
+### 📖 About Page
+<img src="Screenshots/about1.jpg" alt="About Section" width="300"/>
+<img src="Screenshots/about2.jpg" alt="Projects Section" width="300"/>
 
 
 ---
