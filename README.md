@@ -48,16 +48,16 @@ KeyNest is a secure, elegant, and lightweight Android password manager that help
 
 KeyNest/
 ├── app/
-│ ├── java/com/jatin/keynest/
-│ │ ├── activities/
-│ │ ├── adapters/
-│ │ ├── models/
-│ │ ├── utils/
-│ ├── res/
-│ │ ├── layout/
-│ │ ├── drawable/
-│ │ ├── values/
-│ │ ├── font/
+│   ├── java/com/jatin/keynest/
+│   │   ├── activities/
+│   │   ├── adapters/
+│   │   ├── models/
+│   │   ├── utils/
+│   ├── res/
+│   │   ├── layout/
+│   │   ├── drawable/
+│   │   ├── values/
+│   │   ├── font/
 ├── .gitignore
 ├── README.md
 └── build.gradle
