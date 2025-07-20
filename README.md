@@ -26,6 +26,7 @@ KeyNest is a secure, elegant, and lightweight Android password manager that help
 ![Login Page](![login](https://github.com/user-attachments/assets/29408023-fe07-45bb-9478-3e5b6e3e0736))  
 ![Register Page](![register](https://github.com/user-attachments/assets/4f1665ea-fa5d-4cbe-a58c-edfbb2c3a083)
 )
+![about2](https://github.com/user-attachments/assets/b59faa67-be8b-45c1-970d-6ab0e9b2df79)
 
 ---
 
