@@ -77,7 +77,7 @@ KeyNest stores your passwords **only on your device** using `SharedPreferences`.
 
 ## 🧪 Current Status
 
-🔧 This project is under active development and is being shared on [LinkedIn](https://www.linkedin.com) as part of my Android development journey.
+🔧 This project is under active development and is being shared on [LinkedIn](https://www.linkedin.com/posts/jatin-gangare_androiddevelopment-java-opensource-activity-7352755951726116866-5tui?utm_source=share&utm_medium=member_desktop&rcm=ACoAADyMLu8BOO_hagGyJXmfDAMUwgAEbRY2EKw) as part of my Android development journey.
 
 ✅ Biometric Login, Add/View Passwords implemented  
 🚧 Dark mode, full encryption pending
